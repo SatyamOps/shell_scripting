@@ -1,19 +1,10 @@
 AWX Tower Setup, Integration with GitHub, and Configuration Guide.
-Satyam Maheshwari
-Satyam Maheshwari
-5 min read
-
 Just now
-
-
-
-
-
 In the fast-paced world of DevOps, automation is the backbone of efficiency and reliability. AWX Tower serves as the open-source version of Ansible Tower, providing a powerful web-based interface to manage, schedule, and monitor Ansible playbooks. Mastering AWX Tower means gaining complete control over infrastructure automation with visibility and centralized execution.
 
 Manually running Ansible playbooks can be manageable at first, but as environments grow more complex, automation becomes a necessity. Setting up AWX Tower on AWS provides seamless orchestration of playbooks across environments. With two EC2 instances — a Master Node for AWX Tower and a Worker Node for executing tasks — this guide walks through the setup of a scalable and automated Ansible management system.
 
-Prerequisites
+Prerequisite:
 2 EC2 instances: One as Master and the other as Worker.
 Instance Type: t2.medium or higher.
 OS: Ubuntu 20.04 or 22.04 recommended.
@@ -123,6 +114,8 @@ Downloads AWX Tower version 17.1.0 and sets up the environment.
 Configures admin credentials and secret key in the inventory file.
 Executes the Ansible playbook to install AWX Tower.
 Step 2: Configure AWX Tower
+
+
 1️⃣ Create Credentials
 
 Navigate to AWX Tower → Credentials → Add
@@ -132,6 +125,8 @@ Credential Type: Source Control
 Username: <your_github_username>
 Password: <your_github_personal_access_token>
 Organization: Default or your preferred organization
+
+
 2️⃣ Create Project
 
 Navigate to Projects → Add
