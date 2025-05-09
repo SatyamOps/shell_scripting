@@ -1,5 +1,3 @@
-AWX Tower Setup, Integration with GitHub, and Configuration Guide.
-Just now
 In the fast-paced world of DevOps, automation is the backbone of efficiency and reliability. AWX Tower serves as the open-source version of Ansible Tower, providing a powerful web-based interface to manage, schedule, and monitor Ansible playbooks. Mastering AWX Tower means gaining complete control over infrastructure automation with visibility and centralized execution.
 
 Manually running Ansible playbooks can be manageable at first, but as environments grow more complex, automation becomes a necessity. Setting up AWX Tower on AWS provides seamless orchestration of playbooks across environments. With two EC2 instances — a Master Node for AWX Tower and a Worker Node for executing tasks — this guide walks through the setup of a scalable and automated Ansible management system.
